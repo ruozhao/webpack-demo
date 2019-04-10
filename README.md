@@ -15,13 +15,13 @@ npm install
 
 ## Third play with the source file main.jsx
 You can follow the command 1 or 2 below.
-### 1.
+1. only generate the package
 ```
 webpack
 ```
-The three commands above will get the package, then open the index.html.
+It will get the package, then you open the index.html to view the infomation.
 
-### 2.
+2. will open browser automaticly
 ```
 npm run dev
 ```

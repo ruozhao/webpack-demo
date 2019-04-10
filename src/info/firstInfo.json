@@ -1,0 +1,18 @@
+{
+    "base": {
+        "name": "Han Lin",
+        "telephone": "18710890970",
+        "wechart": "18710890970",
+        "email": "1533066545@qq.com"
+    },
+    "eduBackground": {
+        "graduate": {
+            "professionalTech": "CS",
+            "school": "XD"
+        }
+    },
+    "companies": {
+        "1": {},
+        "2": {}
+    }
+}
