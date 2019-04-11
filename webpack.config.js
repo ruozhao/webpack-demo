@@ -1,4 +1,5 @@
 var path = require("path");
+var webpack = require("webpack");
 // import path from "path";
 const PATHS = {
     src: path.join(__dirname, 'src'),
@@ -30,5 +31,8 @@ module.exports = {
                 use:  ['style-loader', 'css-loader']
             }
         ]
-    }
+    },
+    plugins: [
+        new webpack.BannerPlugin('This is the Resume template!')
+    ]
 };
